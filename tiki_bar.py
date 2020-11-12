@@ -3,13 +3,13 @@ import numpy as np
 from itertools import combinations
 
 class Tiki_Bar:
-    def __init__(self, data_file, on_hand=[]):
+    def __init__(self, data_file):
         self.data_file = data_file
         self.all_drinks_db = pd.read_csv(self.data_file)
         self.all_ingredients = list(self.all_drinks_db.columns)[6:]
         self.all_recipe_names = self.all_drinks_db.drink.tolist()
         self.all_types_glassware = self.all_drinks_db.glass.unique().tolist()
-        self.on_hand = on_hand
+        self.on_hand = []
     def recipe_by_ingredient(self, ingredient):
         if ingredient in self. all_ingredients:
             results = []
@@ -20,7 +20,7 @@ class Tiki_Bar:
                 results.append(drink)
             return results
         else:
-            print("Ingredient not listed")
+            return "Ingredient not listed"
     
     def what_can_i_make(self, exact=0):
         found = []
@@ -43,9 +43,10 @@ class Tiki_Bar:
         name = self.all_drinks_db[self.all_drinks_db.drink_id.isin(common_id)].drink.values
         ingredients = self.all_drinks_db[self.all_drinks_db.drink_id.isin(common_id)].full_recipe.values
         if len(name) == 0:
-            print("None found")
+            return "None found"
         else:
-            nl = "\n"
-            print("Can make:")
-            for n,i in zip(name, ingredients):
-                print(f"{n}{nl}------{nl}{i}{nl}------{nl}")
+            results = []
+            for n, i in zip(name, ingredients):
+                drink = {"name": n, "ingredients": i}
+                results.append(drink)
+            return results

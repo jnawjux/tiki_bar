@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Tiki Time</title>
+        <link rel="shortcut icon" type="image/jpg" href=”favicon.ico”/>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1 class="has-text-centered is-uppercase is-size-1">🍹 Tiki Time 🍹</h1>
+        <div class="container">
+        <div class="tabs is-large is-centered">
+            <ul>
+              <li id="juice-tab" class="tab-select is-active"><a>Juices / Mixers</a></li>
+              <li id="syrup-tab" class="tab-select"><a>Syrups</a></li>
+              <li id="rum-tab" class="tab-select"><a>Rums</a></li>
+              <li id="liquor-tab" class="tab-select"><a>Liquors</a></li>
+              <li id="fruit-liq-tab" class="tab-select"><a>Fruit Liqueur</a></li>
+              <li id="bitters-tab" class="tab-select"><a>Bitters / Others</a></li>
+            </ul>
+        </div>
+        <div id="juice" class="ingredient-section">
+            <button class="button">Lemon Juice</button>
+            <button class="button">Lime Juice</button>
+            <button class="button">Pineapple Juice</button>
+            <button class="button">Grapefruit Juice</button>
+            <button class="button">Orange Juice</button>
+            <button class="button">Ginger Beer</button>
+            <button class="button">Bundeberg guava soda</button>
+            <button class="button">Grapefruit soda</button>
+            <button class="button">Ginger Ale</button>
+            <button class="button">Whole Milk</button>
+            <button class="button">Heavy Whipping Cream</button>
+            <button class="button">Sparkling Lemonade</button>
+            <button class="button">Seltzer</button>
+            <button class="button">Sweet Cream</button>
+            <button class="button">Coconut water</button>
+            <button class="button">Stiegl-Radler Grapefruit Beer</button>
+            <button class="button">Carbonated Chai Tea</button>
+        </div>
+        <div id= "syrup" class="ingredient-section is-hidden">
+            <button class="button">Dem Simple Syrup</button>
+            <button class="button">Passion Fruit Syrup</button>
+            <button class="button">Cinnamon Syrup</button>
+            <button class="button">Vanilla Syrup</button>
+            <button class="button">Honey Syrup</button>
+            <button class="button">Molasses Syrup</button>
+            <button class="button">SC Jerk Syrup</button>
+            <button class="button">Li Hing Mui Syrup</button>
+            <button class="button">Mai Tai Rich Simple Syrup</button>
+            <button class="button">Martinique sugarcane syrup</button>
+            <button class="button">Small Hand Foods Raspberry Gum Syrup</button>
+            <button class="button">Orgeat</button>
+            <button class="button">Coconut Cream</button>
+            <button class="button">Pasion fruit puree</button>
+            <button class="button">Maple Syrup</button>
+            <button class="button">Napa Wine Syrup</button>
+            <button class="button">Vanilla Extract (drops)</button>
+            <button class="button">Almond Extract (drops)</button>
+            <button class="button">Spruce beet soda extract (drops)</button>
+            <button class="button">Grendine</button>
+        </div>
+        <div id="rum" class="ingredient-section is-hidden">
+            <button class="button">Blended Light Aged Rum</button>
+            <button class="button">Sill Aged Rum</button>
+            <button class="button">Blended Aged Rum</button>
+            <button class="button">Black Blended Rum - Overproof</button>
+            <button class="button">Black Blended Rum</button>
+            <button class="button">Cane coffey still aged rum</button>
+            <button class="button">Cane AOC Martinique Rhum Agricole Vieux</button>
+            <button class="button">Cane AOC Martinique Rhum Agricole Blanc</button>
+            <button class="button">Column still aged rum</button>
+            <button class="button">Pot still unaged rum</button>
+            <button class="button">Pot still lightly aged rum</button>
+            <button class="button">Pot still lightly aged rum - overproof</button>
+            <button class="button">Wray &amp; Nephew White Overproof Rum</button>
+            <button class="button">R.L. Seale 10 Year Rum</button>
+            <button class="button">Pot stilled cachaca</button>
+        </div>
+        <div id="liquor" class=" ingredient-section is-hidden">
+            <button class="button">London dry gin</button>
+            <button class="button">Sloe Gin</button>
+            <button class="button">Blanco tequila</button>
+            <button class="button">Vodka</button>
+            <button class="button">Bourbon</button>
+            <button class="button">Rye</button>
+            <button class="button">Brandy</button>
+            <button class="button">Dry Vermouth</button>
+            <button class="button">Tawny port</button>
+            <button class="button">Oloroso sherry</button>
+            <button class="button">Sparkling Wine</button>
+            <button class="button">Benedictine</button>
+            <button class="button">Natural creme de cassis</button>
+            <button class="button">John D. Taylor's Velvet Falernum</button>
+            <button class="button">St. Elizabeth Allspice Dram</button>
+            <button class="button">Pierre Ferrand Dry Curacao</button>
+            <button class="button">Blue Caracao</button>
+            <button class="button">Licor 43</button>
+            <button class="button">Green Chartreuse</button>
+            <button class="button">Yellow Chartreuse</button>
+            <button class="button">Drambuie</button>
+            <button class="button">Batavia arrack</button>
+            <button class="button">Campari</button>
+            <button class="button">Absinthe Blanc</button>
+            <button class="button">Punt e Mes</button>
+            <button class="button">Aquavit</button>
+            <button class="button">Amaro Di Angostura</button>
+            <button class="button">Amaro Averna</button>
+            <button class="button">Blandy's 5 Year Verdelho Madeira</button>
+        </div>
+        <div id="fruit-liq" class=" ingredient-section is-hidden">
+            <button class="button">Luxardo Maraschino Liqueur</button>
+            <button class="button">Cherry Heering Liqueur</button>
+            <button class="button">Peach Liquor</button>
+            <button class="button">Leopold Brothers Rocky Mountain Blackberry Liqueur</button>
+            <button class="button">Natural pear liqueur</button>
+            <button class="button">Natural apricot liqueur</button>
+            <button class="button">Ginger liquer</button>
+            <button class="button">St. George Raspberry Liqueur</button>
+            <button class="button">Hibiscus Liqueur</button>
+            <button class="button">Peruvian pisco</button>
+            <button class="button">Bittermens New Orleans liqueur</button>
+            <button class="button">Giffard Banane du Bresil Banana Liqueur</button>
+            <button class="button">Zirbenz Stone Pine Liqueur</button>
+            <button class="button">Apple brandy</button>
+            <button class="button">Vanilla Brandy</button>
+        </div>
+        <div id="bitters" class=" ingredient-section is-hidden">
+            <button class="button">Angostura Bitters</button>
+            <button class="button">Orange Bitters</button>
+            <button class="button">Pechaud's Bitters</button>
+            <button class="button">Herbstura</button>
+            <button class="button">Bitttermens Elemakule Tiki Bitters (drops)</button>
+            <button class="button">Bittermens Burlesque bitters (drops)</button>
+            <button class="button">Bittermens Xocolatl Mole Bitters (drops)</button>
+            <button class="button">Champagne</button>
+            <button class="button">Spiral Cut Orange Peel</button>
+            <button class="button">Fresh Peach</button>
+            <button class="button">Passion Fruit Honey</button>
+            <button class="button">Passion Fruit Puree</button>
+            <button class="button">Pineapple Chunks</button>
+            <button class="button">Mint Leaves</button>
+            <button class="button">Lime Wedge</button>
+            <button class="button">Egg White</button>
+        </div>
+    </div>
+        <script src="tiki.js" async defer></script>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+

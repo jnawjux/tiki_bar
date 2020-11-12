@@ -1,0 +1,12 @@
+body {
+    margin: 0;
+}
+
+button {
+    margin: .25em;
+}
+
+.ingredient-section {
+    width: 80%;
+    margin: 1em auto;
+}
