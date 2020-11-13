@@ -33,8 +33,7 @@ class Tiki_Bar:
 
         # Creating dictionaries for each drink with its frequency count, common for matching all
         common_dict = {id: tot - exact for id, tot in zip(self.all_drinks_db.drink_id.tolist(),
-                                                  self.all_drinks_db.ingredient_count.tolist())
-                                                  if tot - exact > 0}
+                                                          self.all_drinks_db.ingredient_count.tolist()) if tot - exact > 0}
 
         # Finding matching items (key, value)
         common_id = [id[0] for id in list(freq.items() & common_dict.items())]
@@ -42,11 +41,12 @@ class Tiki_Bar:
         #Getting drink name for matches
         name = self.all_drinks_db[self.all_drinks_db.drink_id.isin(common_id)].drink.values
         ingredients = self.all_drinks_db[self.all_drinks_db.drink_id.isin(common_id)].full_recipe.values
-        if len(name) == 0:
-            return "None found"
-        else:
-            results = []
-            for n, i in zip(name, ingredients):
-                drink = {"name": n, "ingredients": i}
-                results.append(drink)
-            return results
+        steps = self.all_drinks_db[self.all_drinks_db.drink_id.isin(common_id)].steps.values
+        # if len(common_id) == 0:
+        #     return "None found"
+        # else:
+        results = []
+        for n, i, s in zip(name, ingredients, steps):
+            drink = {"name": n, "ingredients": i, "steps": s}
+            results.append(drink)
+        return results

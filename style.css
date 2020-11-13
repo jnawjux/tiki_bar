@@ -6,6 +6,13 @@ button {
     margin: .25em;
 }
 
+.exact-selector {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+
 .ingredient-section {
     width: 80%;
     margin: 1em auto;

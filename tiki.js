@@ -1,3 +1,14 @@
+// Exact selector
+let exact = 0
+const exSelect = document.getElementById("exSelect")
+
+exSelect.addEventListener("change", function() {
+    let options = document.getElementsByTagName("option")
+    Array.from(options).forEach(op => {if (op.selected) {exact = parseInt(op.textContent)}})
+})
+
+
+
 
 // General function to clear tabs and sections for tab interface
 function clearActive() {
@@ -59,12 +70,19 @@ bittersTab.addEventListener("click", function() {
 
 const allButtons = document.getElementsByTagName("button")
 
-Array.from(allButtons).forEach(b => {b.addEventListener("click", function() {
-    b.classList.toggle("is-success")
-    fetch('http://127.0.0.1:8000/on_hand/', {
-        method: 'POST',
-        body: JSON.stringify(b.textContent)
-    }).then(res => res.json())
-    .then(data =>  console.log(data))
-})})
+Array.from(allButtons).forEach(b => 
+    {b.addEventListener("click", 
+        function() {
+            b.classList.toggle("is-success")
+            let postUrl = 'http://127.0.0.1:8000/on_hand/' + b.textContent.replace(" ", "%20")
+            fetch(postUrl, {method: "POST"})
+                .then(res => res.json())
+                .then(data =>  console.log(data))
+            let getUrl = 'http://127.0.0.1:8000/can_make/' + exact
+            fetch(getUrl)
+                .then(res => res.json())
+                .then(data => data.forEach(d => {console.log(d.name)}))
+            })})
+
+
 
