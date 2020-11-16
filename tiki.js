@@ -2,7 +2,7 @@
 // General function to clear tabs and sections for tab interface
 function clearActive() {
     Array.from(document.getElementsByClassName("tab-select")).forEach(tab => {tab.classList.remove("is-active")})
-    Array.from(document.getElementsByClassName('ingredient-section')).forEach(sec => {sec.classList.add("is-hidden")})
+    Array.from(document.getElementsByClassName('items-section')).forEach(sec => {sec.classList.add("is-hidden")})
 }
 
 
@@ -99,7 +99,7 @@ function makeIt(exact) {
                     let ingredients = document.createElement('p')
                     let page = document.createElement('span')
                     newDrink.classList.add('drink')
-                    title.classList.add('is-size-3')
+                    title.classList.add('drink-title')
                     page.classList.add('is-italic')
                     title.innerText = d.name
                     ingredients.innerText = d.ingredients + "\n"
@@ -118,7 +118,7 @@ function makeIt(exact) {
 Array.from(allButtons).forEach(b => 
     {b.addEventListener("click", 
         function() {
-            b.classList.toggle("is-success")
+            b.classList.toggle("on-hand")
             updateOnHand(b)
             makeIt(howExact())
             })})

@@ -7,23 +7,25 @@
         <link rel="shortcut icon" type="image/jpg" href=”favicon.ico”/>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <h1 class="has-text-centered is-uppercase is-size-1">🍹 Tiki Time 🍹</h1>
-        <div class="exact-selector">
-            <h2 class="is-size-4 is-italic"># Missing Ingredients: </h2>
-            <div id="exSelect" class="select">
-                <select>
-                <option>0</option>
-                <option>1</option>
-                <option>2</option>
-                </select>
-            </div>
-        </div>
         <div class="container">
-        <div class="tabs is-large is-centered">
+            <h1 class="main-title has-text-centered is-uppercase is-size-1">🍹 Tiki Time 🍹</h1>
+            <div class="exact-selector">
+                <h2 class="is-size-4 is-italic"># Missing Ingredients: </h2>
+                <div id="exSelect" class="select">
+                    <select>
+                    <option>0</option>
+                    <option>1</option>
+                    <option>2</option>
+                    </select>
+                </div>
+            </div>
+        <div class="tabs is-toggle is-centered">
             <ul>
               <li id="juice-tab" class="tab-select is-active"><a>Juices / Mixers</a></li>
               <li id="syrup-tab" class="tab-select"><a>Syrups</a></li>
@@ -33,7 +35,7 @@
               <li id="bitters-tab" class="tab-select"><a>Bitters / Others</a></li>
             </ul>
         </div>
-        <div id="juice" class="ingredient-section">
+        <div id="juice" class="items-section has-text-centered">
             <button class="button">Lemon Juice</button>
             <button class="button">Lime Juice</button>
             <button class="button">Pineapple Juice</button>
@@ -52,7 +54,7 @@
             <button class="button">Stiegl-Radler Grapefruit Beer</button>
             <button class="button">Carbonated Chai Tea</button>
         </div>
-        <div id= "syrup" class="ingredient-section is-hidden">
+        <div id= "syrup" class="items-section has-text-centered is-hidden">
             <button class="button">Dem Simple Syrup</button>
             <button class="button">Passion Fruit Syrup</button>
             <button class="button">Cinnamon Syrup</button>
@@ -74,7 +76,7 @@
             <button class="button">Spruce beet soda extract (drops)</button>
             <button class="button">Grendine</button>
         </div>
-        <div id="rum" class="ingredient-section is-hidden">
+        <div id="rum" class="items-section has-text-centered is-hidden">
             <button class="button">Blended Light Aged Rum</button>
             <button class="button">Sill Aged Rum</button>
             <button class="button">Blended Aged Rum</button>
@@ -91,7 +93,7 @@
             <button class="button">R.L. Seale 10 Year Rum</button>
             <button class="button">Pot stilled cachaca</button>
         </div>
-        <div id="liquor" class=" ingredient-section is-hidden">
+        <div id="liquor" class="items-section has-text-centered is-hidden">
             <button class="button">London dry gin</button>
             <button class="button">Sloe Gin</button>
             <button class="button">Blanco tequila</button>
@@ -122,7 +124,7 @@
             <button class="button">Amaro Averna</button>
             <button class="button">Blandy's 5 Year Verdelho Madeira</button>
         </div>
-        <div id="fruit-liq" class=" ingredient-section is-hidden">
+        <div id="fruit-liq" class="items-section has-text-centered is-hidden">
             <button class="button">Luxardo Maraschino Liqueur</button>
             <button class="button">Cherry Heering Liqueur</button>
             <button class="button">Peach Liquor</button>
@@ -139,7 +141,7 @@
             <button class="button">Apple brandy</button>
             <button class="button">Vanilla Brandy</button>
         </div>
-        <div id="bitters" class=" ingredient-section is-hidden">
+        <div id="bitters" class="items-section has-text-centered is-hidden">
             <button class="button">Angostura Bitters</button>
             <button class="button">Orange Bitters</button>
             <button class="button">Pechaud's Bitters</button>
@@ -157,7 +159,7 @@
             <button class="button">Lime Wedge</button>
             <button class="button">Egg White</button>
         </div>
-        <div class="is-size-4 has-text-centered">Current Ingredients:<br/><span id="currentIngredients"></span></div>
+        <div class="current-box"><span class="current-heading">Current Ingredients:</span><br/><span id="currentIngredients"></span></div>
         <div id="drinkBox" class="drink-box has-text-centered">
         </div>
     </div>
