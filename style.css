@@ -13,6 +13,7 @@ body {
     background: #ffdecc;
     font-family: 'Jost', sans-serif;
     color: var(--dark-blue);
+    height: 100vh;
 }
 
 .main-title {
@@ -20,9 +21,6 @@ body {
     font-weight: 700;
 }
 
-.container {
-    height: 100vh;
-}
 
 .button {
     margin: .25em;
