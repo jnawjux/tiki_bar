@@ -30,7 +30,11 @@ def by_ingredient(ingredient: str):
 
 @app.post("/on_hand/{ingredient}")
 def by_ingredient(ingredient: str):
-    my_bar.on_hand.append(ingredient)
+    if ingredient in my_bar.on_hand:
+        my_bar.on_hand.remove(ingredient)
+    else:
+        
+        my_bar.on_hand.append(ingredient)
     return my_bar.on_hand
 
 @app.get("/can_make/{exact}")

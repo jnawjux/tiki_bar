@@ -17,3 +17,18 @@ button {
     width: 80%;
     margin: 1em auto;
 }
+
+.drink-box {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .drink-box>* {
+      flex: 0 0 30%;
+  }
+
+.drink {
+    padding: .5em 1em;
+    margin: 1em auto;
+    border: 1px solid lightGrey;
+    border-radius: .5em;
+}
