@@ -11,7 +11,6 @@ origins = [
     "127.0.0.1:5500"
 ]
 
-
 app.add_middleware(
     CORSMiddleware,
     allow_origins=origins,
@@ -19,14 +18,6 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"]
 )
-
-@app.get("/all_ingredients")
-def all_ingredients():
-    return my_bar.all_ingredients
-
-@app.get("/by_ingredient/{ingredient}")
-def by_ingredient(ingredient: str):
-    return my_bar.recipe_by_ingredient(ingredient)
 
 @app.post("/on_hand/{ingredient}")
 def by_ingredient(ingredient: str):
@@ -40,3 +31,19 @@ def by_ingredient(ingredient: str):
 @app.get("/can_make/{exact}")
 def can_make(exact: int):
     return my_bar.what_can_i_make(exact=exact)
+
+"""
+Still working on implimenting these
+
+@app.get("/all_ingredients")
+def all_ingredients():
+    return my_bar.all_ingredients
+
+@app.get("/get_on_hand")
+def all_ingredients():
+    return my_bar.on_hand
+
+@app.get("/by_ingredient/{ingredient}")
+def by_ingredient(ingredient: str):
+    return my_bar.recipe_by_ingredient(ingredient)
+"""
