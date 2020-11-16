@@ -56,10 +56,11 @@ bittersTab.addEventListener("click", function() {
 })
 
 
-// Current ingredient and drink section
+// Current ingredient, drink section, buttons, exactness selector
 const drinks = document.getElementById('drinkBox')
 const currentIngredients = document.getElementById('currentIngredients')
-
+const allButtons = document.getElementsByTagName("button")
+const exSelect = document.getElementById("exSelect")
 
 // Function for removing children
 function removeAllChildNodes(parent) {
@@ -68,47 +69,64 @@ function removeAllChildNodes(parent) {
     }
 }
 
+// Function for updating ingredient list
+function updateOnHand(button) {
+    let postUrl = 'http://127.0.0.1:8000/on_hand/' + button.textContent.replace(" ", "%20")
+    fetch(postUrl, {method: "POST"})
+        .then(res => res.json())
+        .then(data =>  currentIngredients.innerText = data.join(", "))
+}
 
-// Buttons
+// Function for getting current exactness setting
+function howExact() {
+    let exact = 0
+    let options = document.getElementsByTagName("option")
+    Array.from(options).forEach(op => {if (op.selected) {exact = parseInt(op.textContent)}})
+    return exact
+}
 
-const allButtons = document.getElementsByTagName("button")
+// Function for updating drinks that can be made
+function makeIt(exact) {
+    let getUrl = 'http://127.0.0.1:8000/can_make/' + exact
+    fetch(getUrl)
+        .then(res => res.json())
+        .then(data => {
+            drinks.textContent = "" //if (drinks.hasChildNodes()) {removeAllChildNodes(drinks)}
+            console.log(data)
+            data.forEach(d => {
+                    let newDrink = document.createElement('div')
+                    let title = document.createElement('h2')
+                    let ingredients = document.createElement('p')
+                    let page = document.createElement('span')
+                    newDrink.classList.add('drink')
+                    title.classList.add('is-size-3')
+                    page.classList.add('is-italic')
+                    title.innerText = d.name
+                    ingredients.innerText = d.ingredients + "\n"
+                    page.innerText = d.steps
+                    newDrink.appendChild(title)
+                    newDrink.appendChild(ingredients)
+                    newDrink.appendChild(page)
+                    drinks.appendChild(newDrink)})
+            }
+            )
+}
+
+
+// Add functions for button to update ingredients and update drinks
 
 Array.from(allButtons).forEach(b => 
     {b.addEventListener("click", 
         function() {
             b.classList.toggle("is-success")
-            let postUrl = 'http://127.0.0.1:8000/on_hand/' + b.textContent.replace(" ", "%20")
-            fetch(postUrl, {method: "POST"})
-                .then(res => res.json())
-                .then(data =>  currentIngredients.innerText = data.join(", "))
-            let exact = 0
-            let exSelect = document.getElementById("exSelect")
-            let options = document.getElementsByTagName("option")
-            Array.from(options).forEach(op => {if (op.selected) {exact = parseInt(op.textContent)}})
-            let getUrl = 'http://127.0.0.1:8000/can_make/' + exact
-            fetch(getUrl)
-                .then(res => res.json())
-                .then(data => {
-                    drinks.textContent = "" //if (drinks.hasChildNodes()) {removeAllChildNodes(drinks)}
-                    console.log(data)
-                    data.forEach(d => {
-                            let newDrink = document.createElement('div')
-                            let title = document.createElement('h2')
-                            let ingredients = document.createElement('p')
-                            let page = document.createElement('span')
-                            newDrink.classList.add('drink')
-                            title.classList.add('is-size-3')
-                            page.classList.add('is-italic')
-                            title.innerText = d.name
-                            ingredients.innerText = d.ingredients + "\n"
-                            page.innerText = d.steps
-                            newDrink.appendChild(title)
-                            newDrink.appendChild(ingredients)
-                            newDrink.appendChild(page)
-                            drinks.appendChild(newDrink)})
-                    }
-                    )
+            updateOnHand(b)
+            makeIt(howExact())
             })})
 
 
-
+// Add function to exactness to update when changed
+exSelect.addEventListener("change", 
+        function() {
+            makeIt(howExact())
+    }
+)
