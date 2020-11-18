@@ -8,12 +8,16 @@
 
 /* Layout tweaks */
 
+html {
+    height: 100%;
+    background: #ffdecc;
+}
+
 body {
     margin: 0;
-    background: #ffdecc;
     font-family: 'Jost', sans-serif;
     color: var(--dark-blue);
-    height: 100vh;
+    height: 100%;
 }
 
 .main-title {

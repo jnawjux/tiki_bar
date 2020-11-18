@@ -1,4 +1,3 @@
-
 // General function to clear tabs and sections for tab interface
 function clearActive() {
     Array.from(document.getElementsByClassName("tab-select")).forEach(tab => {tab.classList.remove("is-active")})
@@ -92,13 +91,12 @@ function makeIt(exact) {
         .then(res => res.json())
         .then(data => {
             drinks.textContent = "" //if (drinks.hasChildNodes()) {removeAllChildNodes(drinks)}
-            console.log(data)
             data.forEach(d => {
                     let newDrink = document.createElement('div')
                     let title = document.createElement('h2')
                     let ingredients = document.createElement('p')
                     let page = document.createElement('span')
-                    newDrink.classList.add('drink')
+                    newDrink.classList.add('drink', 'animate__animated', 'animate__bounceIn')
                     title.classList.add('drink-title')
                     page.classList.add('is-italic')
                     title.innerText = d.name
@@ -130,3 +128,19 @@ exSelect.addEventListener("change",
             makeIt(howExact())
     }
 )
+
+// On page load, match buttons to on hand ingredients
+
+function loadCurrent() {
+    let getUrl = 'http://127.0.0.1:8000/get_on_hand'
+    fetch(getUrl)
+    .then(res => res.json())
+    .then(data => {
+            currentIngredients.innerText = data.join(", ")
+            data.forEach(d=> {
+                Array.from(allButtons).forEach(b=> {
+                    if (b.innerText == d) {b.classList.add("on-hand")}
+                })
+            })}
+        )
+}
