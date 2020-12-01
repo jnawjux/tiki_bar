@@ -1,0 +1,725 @@
+﻿drink_id,drink,glass,full_recipe,steps,ingredient_count,Lemon Juice,Lime Juice,Pineapple Juice,Grapefruit Juice,Orange Juice,Ginger Beer,Bundeberg guava soda,Grapefruit soda,Ginger Ale,Whole Milk,Heavy Whipping Cream,Sparkling Lemonade,Seltzer,Dem Simple Syrup,Passion Fruit Syrup,Cinnamon Syrup,Vanilla Syrup,Honey Syrup,Molasses Syrup,SC Jerk Syrup,Li Hing Mui Syrup,Mai Tai Rich Simple Syrup,Dons Mix,Martinique sugarcane syrup,Sweet Cream,Small Hand Foods Raspberry Gum Syrup,Orgeat,Coconut Cream,Pasion fruit puree,Maple Syrup,Vanilla Extract (drops),Almond Extract (drops),Spruce beet soda extract (drops),Blended Light Aged Rum,Sill Aged Rum,Blended Aged Rum,Black Blended Rum - Overproof,Black Blended Rum,Cane coffey still aged rum,Cane AOC Martinique Rhum Agricole Vieux,Cane AOC Martinique Rhum Agricole Blanc,Column still aged rum,Pot still lightly aged rum,Pot still lightly aged rum - overproof,Wray & Nephew White Overproof Rum,R.L. Seale 10 Year Rum,St. Elizabeth Allspice Dram,Peach Liquor,Leopold Brothers Rocky Mountain Blackberry Liqueur,London dry gin,Sloe Gin,Blanco tequila,Vodka,Bourbon,Rye,Brandy,Pot stilled cachaca,Luxardo Maraschino Liqueur,Natural creme de cassis,Creme de peche,John D. Taylor's Velvet Falernum,Pierre Ferrand Dry Curacao,Blue Caracao,Cherry Heering Liqueur,Licor 43,Green Chartreuse,Yellow Chartreuse,Drambuie,Apple brandy,Natural pear liqueur,Natural apricot liqueur,Ginger liquer,Batavia arrack,Carbonated Chai Tea,Campari,Absinthe Blanc,Punt e Mes,Benedictine,Tawny port,Aquavit,St. George Raspberry Liqueur,Hibiscus Liqueur,Peruvian pisco,Bittermens New Orleans liqueur,Giffard Banane du Bresil Banana Liqueur,Vanilla Brandy,Zirbenz Stone Pine Liqueur,Oloroso sherry,Amaro Di Angostura,Amaro Averna,Blandy's 5 Year Verdelho Madeira,Napa Wine Syrup,Dry Vermouth,Sparkling Wine,Angostura Bitters,Orange Bitters,Grendine,Pechaud's Bitters,Herbstura,Bitttermens Elemakule Tiki Bitters (drops),Bittermens Burlesque bitters (drops),Bittermens Xocolatl Mole Bitters (drops),Stiegl-Radler Grapefruit Beer,Champagne,Coconut water,Spiral Cut Orange Peel,Fresh Peach,Passion Fruit Honey,Passion Fruit Puree,Pineapple Chunks,Mint Leaves,Lime Wedge,Egg White
+1,Aku Aku,coupe,"Lime Juice (oz): 1.0
+Dem Simple Syrup (oz): 0.5
+Blended Light Aged Rum (oz): 1.5
+Peach Liquor (oz): 0.5
+Pineapple Chunks (q): 5.0
+Mint Leaves (q): 8.0
+Glass: chilled coupe","Smuggler's Cove, Page: 39",6,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0
+2,Pupule,footed pilsner,"Lime Juice (oz): 0.75
+Orange Juice (oz): 0.75
+Cinnamon Syrup (oz): 0.25
+Vanilla Syrup (oz): 0.25
+Sill Aged Rum (oz): 2.0
+St. Elizabeth Allspice Dram (oz): 0.25
+Angostura Bitters (dash): 1.0
+Spiral Cut Orange Peel (q): 1.0
+Glass: footed pilsner","Smuggler's Cove, Page: 39",8,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+3,Don's Own Grog,double old-fashioned,"Lime Juice (oz): 0.75
+Dem Simple Syrup (oz): 0.25
+Blended Aged Rum (oz): 0.5
+Black Blended Rum (oz): 0.5
+Leopold Brothers Rocky Mountain Blackberry Liqueur (oz): 0.5
+John D. Taylor's Velvet Falernum (oz): 0.5
+Angostura Bitters (dash): 1.0
+Grendine (dash): 1.0
+Glass: double old-fashioned","Smuggler's Cove, Page: 40",8,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+4,Port Au Prince,footed pilsner,"Lime Juice (oz): 0.5
+Pineapple Juice (oz): 0.5
+Dem Simple Syrup (oz): 0.25
+Cane coffey still aged rum (oz): 1.5
+Angostura Bitters (dash): 1.0
+Grendine (dash): 1.0
+Glass: footed pilsner","Smuggler's Cove, Page: 40",6,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,Three Dots and a Dash,footed pilsner,"Lime Juice (oz): 0.5
+Orange Juice (oz): 0.5
+Honey Syrup (oz): 0.5
+Blended Aged Rum (oz): 0.5
+Cane AOC Martinique Rhum Agricole Vieux (oz): 1.5
+St. Elizabeth Allspice Dram (oz): 0.25
+John D. Taylor's Velvet Falernum (oz): 0.25
+Angostura Bitters (dash): 1.0
+Glass: footed pilsner","Smuggler's Cove, Page: 43",8,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6,Mexican El Diablo,collins,"Lime Juice (oz): 0.5
+Ginger Ale (oz): 4.0
+Blanco tequila (oz): 1.5
+Natural creme de cassis (oz): 0.5
+Lime Wedge (q): 1.0
+Glass: collins or highball","Smuggler's Cove, Page: 43",5,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+7,Port Light,footed pilsner,"Lemon Juice (oz): 1.0
+Passion Fruit Syrup: 0.5
+Honey Syrup (oz): 0.75
+Bourbon (oz): 2.0
+Egg White
+Glass: footed pilsner","Smuggler's Cove, Page: 44",5,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+8,Demerara Dry Float,double old-fashioned,"Lemon Juice (oz): 0.1666
+Lime Juice (oz): 2.0
+Dem Simple Syrup (oz): 0.25
+Passion Fruit Syrup: 1.5
+Blended Aged Rum (oz): 1.5
+Black Blended Rum - Overproof (oz): 0.75
+Luxardo Maraschino Liqueur (oz): 0.25
+Glass: double old-fashioned","Smuggler's Cove, Page: 44",7,1,1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+9,Jet Pilot,double old-fashioned,"Lime Juice (oz): 0.5
+Grapefruit Juice (oz): 0.5
+Cinnamon Syrup (oz): 0.5
+Blended Aged Rum (oz): 0.75
+Black Blended Rum - Overproof (oz): 0.75
+Black Blended Rum (oz): 1.0
+John D. Taylor's Velvet Falernum (oz): 0.5
+Herbstura (dash): 1.0
+Glass: double old-fashioned","Smuggler's Cove, Page: 61",8,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+10,Halekulani Cocktail,coupe,"Lemon Juice (oz): 0.5
+Pineapple Juice (oz): 0.5
+Orange Juice (oz): 0.5
+Dem Simple Syrup (oz): 0.25
+Bourbon (oz): 1.5
+Angostura Bitters (dash): 1.0
+Grendine (dash): 2.0
+Glass: chilled coupe","Smuggler's Cove, Page: 61",7,1,0,1,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+11,Sidewinder's Fang,brandy snifter,"Lime Juice (oz): 1.5
+Orange Juice (oz): 1.5
+Seltzer (oz): 3.0
+Passion Fruit Syrup: 1.5
+Blended Aged Rum (oz): 1.0
+Black Blended Rum (oz): 1.0
+Spiral Cut Orange Peel (q): 1.0
+Glass: brandy snifter","Smuggler's Cove, Page: 62",7,0,1,0,0,1,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+12,Hawaiian Sunset,coupe,"Lemon Juice (oz): 0.5
+Lime Juice (oz): 0.5
+Orgeat (oz): 0.5
+Vodka (oz): 1.5
+Grendine (dash): 4.0
+Glass: chilled coupe","Smuggler's Cove, Page: 62",5,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+13,Captain's Grog,double old-fashioned,"Lime Juice (oz): 0.5
+Grapefruit Juice (oz): 0.5
+Seltzer (oz): 1.0
+Maple Syrup (oz): 0.5
+Vanilla Extract (drops): 3.0
+Almond Extract (drops): 3.0
+Blended Light Aged Rum (oz): 0.75
+Blended Aged Rum (oz): 0.75
+Black Blended Rum (oz): 0.75
+John D. Taylor's Velvet Falernum (oz): 0.5
+Pierre Ferrand Dry Curacao (oz): 0.5
+Glass: double old-fashioned","Smuggler's Cove, Page: 65",11,0,1,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+14,Suffering Bastard,collins,"Lime Juice (oz): 0.5
+Ginger Beer (oz): 4.0
+Dem Simple Syrup (oz): 0.25
+London dry gin (oz): 1.0
+Brandy (oz): 1.0
+Angostura Bitters (dash): 2.0
+Glass: collins or highball","Smuggler's Cove, Page: 65",6,0,1,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+15,Merciless Virgin,footed pilsner,"Lemon Juice (oz): 0.75
+Seltzer (oz): 0.5
+Blended Light Aged Rum (oz): 1.5
+John D. Taylor's Velvet Falernum (oz): 0.5
+Pierre Ferrand Dry Curacao (oz): 0.25
+Cherry Heering Liqueur (oz): 0.5
+Glass: footed pilsner","Smuggler's Cove, Page: 67",6,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+16,Saturn,coupe,"Lemon Juice (oz): 0.75
+Passion Fruit Syrup: 0.5
+Orgeat (oz): 0.25
+London dry gin (oz): 1.25
+John D. Taylor's Velvet Falernum (oz): 0.25
+Glass: chilled coupe","Smuggler's Cove, Page: 67",5,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+17,Tiki Bowl (serves 2),decorative bowl,"Lime Juice (oz): 0.75
+Orange Juice (oz): 1.5
+Honey Syrup (oz): 1.0
+Black Blended Rum - Overproof (oz): 1.0
+Black Blended Rum (oz): 1.25
+Column still aged rum (oz): 1.0
+Herbstura (dash): 2.0
+Glass: decorative bowl","Smuggler's Cove, Page: 68",7,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+18,Hurricane,hurricane glass,"Lemon Juice (oz): 2.0
+Passion Fruit Syrup: 2.0
+Black Blended Rum (oz): 4.0
+Glass: hurricane glass","Smuggler's Cove, Page: 68",3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+19,Mundo Perdido,coupe,"Lemon Juice (oz): 0.75
+Dem Simple Syrup (oz): 0.25
+Cinnamon Syrup (oz): 0.25
+Black Blended Rum (oz): 1.5
+Apple brandy (oz): 0.5
+Glass: chilled coupe","Smuggler's Cove, Page: 93",5,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+20,Formidable Dragon,brandy snifter,"Lemon Juice (oz): 0.75
+Lime Juice (oz): 0.75
+Seltzer (oz): 1.0
+Honey Syrup (oz): 0.5
+Molasses Syrup (oz): 0.75
+Blended Aged Rum (oz): 1.5
+Black Blended Rum (oz): 1.0
+Pot still lightly aged rum - overproof (oz): 0.25
+Amaro Di Angostura (oz): 0.5
+Glass: brandy snifter","Smuggler's Cove, Page: 93",9,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+21,Lei Lani Valcano 2.0,collins,"Lime Juice (oz): 0.75
+Pineapple Juice (oz): 1.5
+Bundeberg guava soda (oz): 3.0
+Coconut Cream (oz): 1.0
+Blended Aged Rum (oz): 1.5
+Glass: collins or highball","Smuggler's Cove, Page: 94",5,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+22,Tradewinds,zombie,"Lemon Juice (oz): 1.0
+Coconut Cream (oz): 1.5
+Blended Light Aged Rum (oz): 1.0
+Black Blended Rum (oz): 1.0
+Natural apricot liqueur (oz): 1.0
+Glass: zombie","Smuggler's Cove, Page: 94",5,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+23,Peachtree Punch 2.0,double old-fashioned,"Lemon Juice (oz): 0.5
+Orange Juice (oz): 3.0
+Seltzer (oz): 1.0
+Coconut Cream (oz): 1.0
+Blended Light Aged Rum (oz): 2.0
+Peach Liquor (oz): 0.25
+Fresh Peach (q): 0.5
+Glass: double old-fashioned","Smuggler's Cove, Page: 96",7,1,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+24,Jungle Bird,collins,"Lime Juice (oz): 0.5
+Pineapple Juice (oz): 2.0
+Dem Simple Syrup (oz): 0.5
+Black Blended Rum (oz): 1.5
+Campari (oz): 0.75
+Glass: collins or highball","Smuggler's Cove, Page: 96",5,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+25,Golden Gun,collins,"Lime Juice (oz): 0.75
+Grapefruit Juice (oz): 0.5
+Dem Simple Syrup (oz): 0.5
+Blended Light Aged Rum (oz): 1.0
+Blended Aged Rum (oz): 1.0
+Natural apricot liqueur (oz): 0.5
+Angostura Bitters (dash): 2.0
+Glass: collins or highball","Smuggler's Cove, Page: 97",7,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+26,Hinky Dinks Fizzy,brandy snifter,"Lime Juice (oz): 0.5
+Pineapple Juice (oz): 1.5
+Passion Fruit Syrup: 0.5
+Blended Light Aged Rum (oz): 1.0
+London dry gin (oz): 1.0
+Natural apricot liqueur (oz): 0.5
+Sparkling Wine (oz): 2.0
+Glass: brandy snifter","Smuggler's Cove, Page: 97",7,0,1,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+27,Pampanito,collins,"Lemon Juice (oz): 1.0
+Seltzer (oz): 2.5
+Molasses Syrup (oz): 1.0
+Black Blended Rum (oz): 1.5
+St. Elizabeth Allspice Dram (oz): 0.25
+Angostura Bitters (dash): 1.0
+Glass: collins or highball","Smuggler's Cove, Page: 115",6,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+28,Max's Mistake,brandy snifter,"Lemon Juice (oz): 1.0
+Sparkling Lemonade (oz): 2.0
+Passion Fruit Syrup: 1.0
+Honey Syrup (oz): 0.5
+London dry gin (oz): 2.0
+Angostura Bitters (dash): 1.0
+Glass: brandy snifter","Smuggler's Cove, Page: 115",6,1,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+29,La Guildive,coupe,"Lime Juice (oz): 0.5
+Ginger Beer (oz): 1.0
+Blended Aged Rum (oz): 2.0
+Peach Liquor (oz): 0.25
+Licor 43 (oz): 0.5
+Glass: chilled coupe","Smuggler's Cove, Page: 116",5,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+30,The Twenty Seventy Swizzle,collins,"Lime Juice (oz): 0.5
+Dem Simple Syrup (oz): 0.5
+Honey Syrup (oz): 0.5
+Black Blended Rum - Overproof (oz): 1.0
+Column still aged rum (oz): 1.0
+St. Elizabeth Allspice Dram (oz): 0.25
+Herbstura (dash): 1.0
+Glass: collins or highball","Smuggler's Cove, Page: 116",7,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+31,Shudders in a Whisper,brandy snifter,"Lime Juice (oz): 0.75
+Seltzer (oz): 2.0
+Passion Fruit Syrup: 0.5
+Column still aged rum (oz): 2.0
+Drambuie (oz): 0.25
+Natural pear liqueur (oz): 0.5
+Angostura Bitters (dash): 1.0
+Pechaud's Bitters (dash): 2.0
+Glass: brandy snifter","Smuggler's Cove, Page: 118",8,0,1,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+32,Cuevas,coupe,"Cinnamon Syrup (oz): 0.25
+Blended Aged Rum (oz): 2.0
+Punt e Mes (oz): 0.5
+Tawny port (oz): 0.25
+Bitttermens Elemakule Tiki Bitters (drops): 6.0
+Glass: chilled coupe","Smuggler's Cove, Page: 118",5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+33,Norwegian Paralysis,collins,"Lemon Juice (oz): 0.5
+Pineapple Juice (oz): 1.5
+Orange Juice (oz): 1.5
+Dem Simple Syrup (oz): 0.25
+Orgeat (oz): 0.25
+Aquavit (oz): 1.5
+Glass: collins or highball","Smuggler's Cove, Page: 119",6,1,0,1,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+34,Juan Ho Royale,coupe,"Lime Juice (oz): 0.75
+Orgeat (oz): 0.5
+Blanco tequila (oz): 1.5
+John D. Taylor's Velvet Falernum (oz): 0.5
+Blue Caracao (oz): 0.5
+Sparkling Wine (oz): 2.0
+Glass: chilled coupe","Smuggler's Cove, Page: 119",6,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+35,Chartreuse Swizzle,collins,"Lime Juice (oz): 0.75
+Pineapple Juice (oz): 1.0
+John D. Taylor's Velvet Falernum (oz): 0.5
+Green Chartreuse (oz): 1.5
+Glass: collins or highball","Smuggler's Cove, Page: 120",4,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+36,Roselita,collins,"Lime Juice (oz): 0.5
+Seltzer (oz): 1.5
+Orgeat (oz): 0.5
+Column still aged rum (oz): 1.5
+Natural pear liqueur (oz): 0.5
+Hibiscus Liqueur (oz): 0.5
+Pechaud's Bitters (dash): 1.0
+Glass: collins or highball","Smuggler's Cove, Page: 120",7,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+37,Center of the Galaxy,coupe,"Lime Juice (oz): 0.5
+Dem Simple Syrup (oz): 0.5
+Honey Syrup (oz): 0.5
+Blended Aged Rum (oz): 2.0
+St. George Raspberry Liqueur (oz): 0.5
+Glass: chilled coupe","Smuggler's Cove, Page: 121",5,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+38,Callaloo Cooler,collins,"Lime Juice (oz): 0.75
+Seltzer (oz): 1.0
+Cinnamon Syrup (oz): 0.5
+Blended Light Aged Rum (oz): 2.0
+Cherry Heering Liqueur (oz): 0.5
+Angostura Bitters (dash): 1.0
+Glass: collins or highball","Smuggler's Cove, Page: 121",6,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+39,Top Notch Volcano (serves 4),decorative bowl,"Lime Juice (oz): 4.0
+Pineapple Juice (oz): 4.0
+Dem Simple Syrup (oz): 3.0
+Pasion fruit puree (oz): 1.0
+Blended Light Aged Rum (oz): 4.0
+Blended Aged Rum (oz): 4.0
+Luxardo Maraschino Liqueur (oz): 1.0
+Glass: decorative bowl","Smuggler's Cove, Page: 134",7,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+40,The Naked Ape,double old-fashioned,"Lemon Juice (oz): 0.5
+Cinnamon Syrup (oz): 0.5
+Black Blended Rum (oz): 1.5
+Pot still lightly aged rum - overproof (oz): 0.5
+Giffard Banane du Bresil Banana Liqueur (oz): 0.5
+Angostura Bitters (dash): 1.0
+Glass: double old-fashioned","Smuggler's Cove, Page: 134",6,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+41,Swizzle Francais,collins,"Lime Juice (oz): 0.5
+Martinique sugarcane syrup (oz): 0.5
+Cane AOC Martinique Rhum Agricole Vieux (oz): 2.0
+St. Elizabeth Allspice Dram (oz): 0.25
+Glass: collins or highball","Smuggler's Cove, Page: 136",4,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+42,Sparkling Mai Tai,coupe,"Lime Juice (oz): 0.25
+Orgeat (oz): 0.25
+Blended Aged Rum (oz): 0.5
+Black Blended Rum - Overproof (oz): 0.25
+Pierre Ferrand Dry Curacao (oz): 0.5
+Sparkling Wine (oz): 4.0
+Glass: chilled coupe","Smuggler's Cove, Page: 136",6,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+43,The Ernesto,double old-fashioned,"Lime Juice (oz): 1.0
+Grapefruit soda (oz): 2.0
+Honey Syrup (oz): 1.0
+Blanco tequila (oz): 2.0
+Natural apricot liqueur (oz): 0.5
+Herbstura (dash): 1.0
+Glass: double old-fashioned","Smuggler's Cove, Page: 137",6,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+44,The Sexpert,coupe,"Lemon Juice (oz): 0.5
+Passion Fruit Syrup: 0.5
+London dry gin (oz): 0.5
+John D. Taylor's Velvet Falernum (oz): 0.5
+Peruvian pisco (oz): 1.5
+Bittermens Burlesque bitters (drops): 6.0
+Glass: chilled coupe","Smuggler's Cove, Page: 137",6,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+45,Kaiteur Swizzle,collins,"Lime Juice (oz): 0.75
+Maple Syrup (oz): 0.5
+Blended Aged Rum (oz): 2.0
+John D. Taylor's Velvet Falernum (oz): 0.5
+Angostura Bitters (dash): 2.0
+Glass: collins or highball","Smuggler's Cove, Page: 140",5,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+46,The Expedition,tiki mug,"Lime Juice (oz): 1.0
+Seltzer (oz): 2.0
+Cinnamon Syrup (oz): 0.5
+Vanilla Syrup (oz): 0.25
+Honey Syrup (oz): 0.5
+Black Blended Rum (oz): 2.0
+Bourbon (oz): 1.0
+Bittermens New Orleans liqueur (oz): 0.25
+Glass: tiki mug","Smuggler's Cove, Page: 140",8,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+47,The Undead Gentleman,coupe,"Lime Juice (oz): 0.5
+Grapefruit Juice (oz): 0.5
+Cinnamon Syrup (oz): 0.5
+Blended Aged Rum (oz): 1.5
+Black Blended Rum - Overproof (oz): 1.0
+John D. Taylor's Velvet Falernum (oz): 0.5
+Absinthe Blanc (dash): 1.0
+Angostura Bitters (dash): 1.0
+Glass: chilled coupe","Smuggler's Cove, Page: 142",8,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+48,The Dead Reckoning,collins,"Lemon Juice (oz): 1.0
+Pineapple Juice (oz): 1.0
+Seltzer (oz): 1.0
+Maple Syrup (oz): 0.5
+Blended Aged Rum (oz): 2.0
+Tawny port (oz): 0.5
+Vanilla Brandy (oz): 0.5
+Angostura Bitters (dash): 1.0
+Glass: collins or highball","Smuggler's Cove, Page: 142",8,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+49,Falinum,double old-fashioned,"Lemon Juice (oz): 1.0
+Seltzer (oz): 1.0
+Coconut Cream (oz): 1.0
+Column still aged rum (oz): 2.0
+John D. Taylor's Velvet Falernum (oz): 0.5
+Orange Bitters (dash): 1.0
+Glass: double old-fashioned","Smuggler's Cove, Page: 144",6,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+50,Humuhumunukunukuapua'a,double old-fashioned,"Lemon Juice (oz): 0.75
+Pineapple Juice (oz): 0.75
+Orgeat (oz): 0.5
+London dry gin (oz): 2.0
+Pechaud's Bitters (dash): 2.0
+Glass: double old-fashioned","Smuggler's Cove, Page: 144",5,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+51,Finkelgrog,double old-fashioned,"Lime Juice (oz): 0.5
+Grapefruit Juice (oz): 0.5
+Seltzer (oz): 1.0
+Orgeat (oz): 0.25
+Blended Light Aged Rum (oz): 1.0
+Black Blended Rum (oz): 1.0
+Licor 43 (oz): 0.5
+Napa Wine Syrup (oz): 0.5
+Glass: double old-fashioned","Smuggler's Cove, Page: 145",8,0,1,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+52,For Pete's Sake,double old-fashioned,"Lime Juice (oz): 0.75
+Dem Simple Syrup (oz): 0.5
+Cherry Heering Liqueur (oz): 0.5
+Hibiscus Liqueur (oz): 0.5
+Peruvian pisco (oz): 1.5
+Angostura Bitters (dash): 1.0
+Glass: double old-fashioned","Smuggler's Cove, Page: 145",6,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+53,Arrack Punch (serves 4),decorative bowl,"Lemon Juice (oz): 2.0
+Lime Juice (oz): 2.0
+Dem Simple Syrup (oz): 3.0
+Pot still lightly aged rum - overproof (oz): 2.0
+Batavia arrack (oz): 6.0
+Carbonated Chai Tea (oz): 6.0
+Glass: decorative bowl","Smuggler's Cove, Page: 163",6,1,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+54,El Draque,coupe,"Lime Juice (oz): 0.75
+Dem Simple Syrup (oz): 0.75
+Pot stilled cachaca (oz): 2.0
+Mint Leaves (q): 5.0
+Glass: chilled coupe","Smuggler's Cove, Page: 163",4,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+55,Grog,double old-fashioned,"Lime Juice (oz): 0.5
+Dem Simple Syrup (oz): 0.5
+Blended Aged Rum (oz): 2.0
+Glass: double old-fashioned","Smuggler's Cove, Page: 165",3,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+56,Rum Flip,coupe,"Dem Simple Syrup (oz): 0.25
+Blended Aged Rum (oz): 2.0
+Egg White
+Glass: chilled coupe","Smuggler's Cove, Page: 165",3,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+57,Bombo,double old-fashioned,"Dem Simple Syrup (oz): 0.25
+Blended Aged Rum (oz): 2.0
+Glass: double old-fashioned","Smuggler's Cove, Page: 167",2,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+58,Calibogus,collins,"Lime Juice (oz): 0.25
+Seltzer (oz): 3.0
+Molasses Syrup (oz): 0.75
+Spruce beet soda extract (drops): 1.0
+Blended Aged Rum (oz): 1.25
+Zirbenz Stone Pine Liqueur (oz): 0.75
+Glass: collins or highball","Smuggler's Cove, Page: 167",6,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+59,Mary Pickford,coupe,"Pineapple Juice (oz): 1.5
+Blended Light Aged Rum (oz): 1.5
+Luxardo Maraschino Liqueur (oz): 0.25
+Grendine (dash): 2.0
+Glass: chilled coupe","Smuggler's Cove, Page: 168",4,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+60,Daiquiri No. 1,coupe,"Lime Juice (oz): 0.75
+Dem Simple Syrup (oz): 0.5
+Blended Light Aged Rum (oz): 2.0
+Glass: chilled coupe","Smuggler's Cove, Page: 168",3,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+61,Hotel Nacional Special,coupe,"Lime Juice (oz): 0.75
+Dem Simple Syrup (oz): 0.5
+Blended Light Aged Rum (oz): 1.5
+Natural apricot liqueur (oz): 0.5
+Pineapple Chunks (q): 4.0
+Glass: chilled coupe","Smuggler's Cove, Page: 171",5,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+62,Daisy De Santiago,double old-fashioned,"Lime Juice (oz): 1.0
+Seltzer (oz): 1.0
+Dem Simple Syrup (oz): 0.5
+Blended Light Aged Rum (oz): 1.5
+Yellow Chartreuse (oz): 0.5
+Glass: double old-fashioned","Smuggler's Cove, Page: 171",5,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+63,El Presidente,coupe,"Blended Light Aged Rum (oz): 1.5
+Pierre Ferrand Dry Curacao (oz): 0.5
+Dry Vermouth (oz): 0.75
+Grendine (dash): 2.0
+Glass: chilled coupe","Smuggler's Cove, Page: 172",4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+64,Twelve Mile Limit,coupe,"Lemon Juice (oz): 0.5
+Blended Light Aged Rum (oz): 1.0
+Rye (oz): 0.5
+Brandy (oz): 0.5
+Grendine (dash): 2.0
+Glass: chilled coupe","Smuggler's Cove, Page: 172",5,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+65,Parisian Blonde,coupe,"Sweet Cream (oz): 1.0
+Blended Aged Rum (oz): 1.0
+Pierre Ferrand Dry Curacao (oz): 1.0
+Glass: chilled coupe","Smuggler's Cove, Page: 174",3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+66,Cora Middleton,coupe,"Lime Juice (oz): 0.75
+Dem Simple Syrup (oz): 0.25
+Small Hand Foods Raspberry Gum Syrup (oz): 0.5
+Blended Aged Rum (oz): 2.0
+Egg White
+Glass: chilled coupe","Smuggler's Cove, Page: 174",5,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+67,Millionaire Cocktail (No. 1),coupe,"Lime Juice (oz): 0.75
+Blended Aged Rum (oz): 0.75
+Sloe Gin (oz): 0.75
+Natural apricot liqueur (oz): 0.75
+Grendine (dash): 1.0
+Glass: chilled coupe","Smuggler's Cove, Page: 175",5,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+68,Wray & Ting,collins,"Grapefruit soda (oz): 4.0
+Wray & Nephew White Overproof Rum: 1.5
+Glass: collins or highball","Smuggler's Cove, Page: 176",2,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+69,Hibiscus Rum Punch,collins,"Lime Juice (oz): 0.5
+Seltzer (oz): 2.0
+Dem Simple Syrup (oz): 0.75
+Blended Aged Rum (oz): 1.5
+Hibiscus Liqueur (oz): 1.0
+Glass: collins or highball","Smuggler's Cove, Page: 176",5,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+70,Ti' Punch,double old-fashioned,"Martinique sugarcane syrup (oz): 0.5
+Cane AOC Martinique Rhum Agricole Vieux (oz): 2.0
+Lime Wedge (q): 2.0
+Glass: double old-fashioned","Smuggler's Cove, Page: 179",3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+71,Barbados Rum Punch,footed pilsner,"Lime Juice (oz): 1.0
+Dem Simple Syrup (oz): 1.0
+Blended Aged Rum (oz): 2.0
+Angostura Bitters (dash): 1.0
+Glass: footed pilsner","Smuggler's Cove, Page: 179",4,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+72,Jamaican Milk Punch,double old-fashioned,"Whole Milk (oz): 1.0
+Heavy Whipping Cream (oz): 1.0
+Vanilla Extract (drops): 6.0
+Black Blended Rum (oz): 1.0
+Angostura Bitters (dash): 1.0
+Glass: double old-fashioned","Smuggler's Cove, Page: 180",5,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+73,Corn and Oil,double old-fashioned,"Blended Aged Rum (oz): 2.0
+John D. Taylor's Velvet Falernum (oz): 0.5
+Angostura Bitters (dash): 4.0
+Glass: double old-fashioned","Smuggler's Cove, Page: 180",3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+74,Queen's Park Swizzle,collins,"Lime Juice (oz): 0.5
+Dem Simple Syrup (oz): 0.5
+Black Blended Rum (oz): 2.0
+Angostura Bitters (dash): 2.0
+Mint Leaves (q): 4.0
+Glass: collins or highball","Smuggler's Cove, Page: 181",5,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+75,The Chadburn,coupe,"Blended Aged Rum (oz): 2.0
+Natural pear liqueur (oz): 0.5
+Tawny port (oz): 0.5
+Bittermens Xocolatl Mole Bitters (drops): 6.0
+Glass: chilled coupe","Smuggler's Cove, Page: 201",4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+76,A Wish for Grace,coupe,"Lemon Juice (oz): 0.75
+Dem Simple Syrup (oz): 0.5
+Pot still lightly aged rum: 1.5
+Pierre Ferrand Dry Curacao (oz): 0.5
+Blandy's 5 Year Verdelho Madeira: 0.75
+Angostura Bitters (dash): 1.0
+Glass: chilled coupe","Smuggler's Cove, Page: 201",6,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+77,Abricot Vieux,coupe,"Cane AOC Martinique Rhum Agricole Vieux (oz): 2.0
+Natural apricot liqueur (oz): 0.5
+Angostura Bitters (dash): 1.0
+Orange Bitters (dash): 1.0
+Glass: chilled coupe","Smuggler's Cove, Page: 203",4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+78,Paniolo Old-Fashioned,double old-fashioned,"Li Hing Mui Syrup: 1.0
+Blended Aged Rum (oz): 2.0
+Angostura Bitters (dash): 1.0
+Glass: double old-fashioned","Smuggler's Cove, Page: 203",3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+79,Donn Day Afternoon,double old-fashioned,"Lime Juice (oz): 0.5
+Cinnamon Syrup (oz): 0.5
+Cane AOC Martinique Rhum Agricole Blanc (oz): 2.0
+Stiegl-Radler Grapefruit Beer (oz): 4.0
+Glass: double old-fashioned","Smuggler's Cove, Page: 206",4,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+80,Baie Du Galion,coupe,"Cane AOC Martinique Rhum Agricole Blanc (oz): 2.0
+Green Chartreuse (oz): 0.5
+Drambuie (oz): 0.25
+Glass: chilled coupe","Smuggler's Cove, Page: 206",3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+81,Agricole Guava Cooler,collins,"Lime Juice (oz): 0.75
+Cane AOC Martinique Rhum Agricole Blanc (oz): 2.0
+Licor 43 (oz): 0.75
+Angostura Bitters (dash): 2.0
+Glass: collins or highball","Smuggler's Cove, Page: 209",4,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+82,Richard Sealbach,champagne flute,"R.L. Seale 10 Year Rum (oz): 1.0
+Pierre Ferrand Dry Curacao (oz): 0.5
+Angostura Bitters (dash): 7.0
+Pechaud's Bitters (dash): 7.0
+Champagne (oz): 4.0
+Glass: champagne flute","Smuggler's Cove, Page: 209",5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+83,Cosa Nostra #2,footed pilsner,"Lemon Juice (oz): 0.75
+Ginger Ale (oz): 2.0
+Blended Light Aged Rum (oz): 1.0
+Amaro Averna (oz): 1.5
+Angostura Bitters (dash): 1.0
+Glass: footed pilsner","Smuggler's Cove, Page: 210",5,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+84,Boo Loo,hollowed out pinapple,"Lime Juice (oz): 1.5
+Pineapple Juice (oz): 2.5
+Seltzer (oz): 1.5
+Honey Syrup (oz): 1.25
+Blended Aged Rum (oz): 1.5
+Black Blended Rum - Overproof (oz): 0.75
+Black Blended Rum (oz): 0.75
+Column still aged rum (oz): 1.5
+Pineapple Chunks (q): 6.0
+Glass: hollowed out pinapple","Smuggler's Cove, Page: 249",9,0,1,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+85,Caribeno,coconut shell,"Dem Simple Syrup (oz): 0.25
+Column still aged rum (oz): 2.0
+Coconut water (oz): 4.0
+Glass: coconut shell","Smuggler's Cove, Page: 249",3,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+86,Monk's Respite,coconut shell,"Lemon Juice (oz): 0.5
+Seltzer (oz): 1.0
+Honey Syrup (oz): 0.25
+London dry gin (oz): 1.5
+Yellow Chartreuse (oz): 0.25
+Orange Bitters (dash): 1.0
+Glass: coconut shell","Smuggler's Cove, Page: 251",6,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+87,The Mastadon,hollowed out pinapple,"Lime Juice (oz): 0.5
+Pineapple Juice (oz): 3.0
+Blended Aged Rum (oz): 1.5
+Bourbon (oz): 1.5
+Luxardo Maraschino Liqueur (oz): 0.5
+Licor 43 (oz): 0.5
+Pechaud's Bitters (dash): 2.0
+Passion Fruit Puree (oz): 1.0
+Glass: hollowed out pinapple","Smuggler's Cove, Page: 251",8,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+88,Pinata,hollowed out pinapple,"Lemon Juice (oz): 1.0
+Pineapple Juice (oz): 3.0
+Dem Simple Syrup (oz): 0.5
+Blended Light Aged Rum (oz): 1.0
+Black Blended Rum (oz): 1.0
+St. Elizabeth Allspice Dram (oz): 0.5
+Ginger liquer (oz): 1.0
+Glass: hollowed out pinapple","Smuggler's Cove, Page: 252",7,1,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+89,Bumboat,hollowed out pinapple,"Lemon Juice (oz): 1.5
+Pineapple Juice (oz): 2.0
+Cinnamon Syrup (oz): 0.75
+Almond Extract (drops): 3.0
+Blended Light Aged Rum (oz): 1.0
+Black Blended Rum - Overproof (oz): 0.75
+Rye (oz): 1.0
+Bitttermens Elemakule Tiki Bitters (drops): 6.0
+Glass: hollowed out pinapple","Smuggler's Cove, Page: 252",8,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+90,Planter's Punch,collins,"Lime Juice (oz): 1.0
+Dem Simple Syrup (oz): 0.75
+Blended Aged Rum (oz): 3.0
+St. Elizabeth Allspice Dram (oz): 0.25
+Angostura Bitters (dash): 2.0
+Glass: collins or highball","Smuggler's Cove, Page: 258",5,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+91,Mai Tai,double old-fashioned,"Lime Juice (oz): 0.75
+Mai Tai Rich Simple Syrup (oz): 0.25
+Orgeat (oz): 0.25
+Blended Aged Rum (oz): 2.0
+Pierre Ferrand Dry Curacao (oz): 0.5
+Glass: double old-fashioned","Smuggler's Cove, Page: 261",5,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+92,Doctor Funk,double old-fashioned,"Lemon Juice (oz): 0.5
+Lime Juice (oz): 0.5
+Seltzer (oz): 1.0
+Dem Simple Syrup (oz): 0.5
+Black Blended Rum (oz): 2.25
+Absinthe Blanc (dash): 0.25
+Grendine (dash): 0.25
+Glass: double old-fashioned","Smuggler's Cove, Page: 266",7,1,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+93,Zombie,zombie,"Lime Juice (oz): 0.75
+Grapefruit Juice (oz): 0.25
+Cinnamon Syrup (oz): 0.25
+Blended Aged Rum (oz): 1.5
+Black Blended Rum - Overproof (oz): 1.0
+Column still aged rum (oz): 1.5
+John D. Taylor's Velvet Falernum (oz): 0.5
+Grendine (dash): 1.0
+Herbstura (dash): 2.0
+Glass: zombie","Smuggler's Cove, Page: 268",9,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+94,Navy Grog,double old-fashioned,"Lime Juice (oz): 0.75
+Grapefruit Juice (oz): 0.75
+Dem Simple Syrup (oz): 0.25
+Blended Light Aged Rum (oz): 1.0
+Column still aged rum (oz): 1.0
+Pot still lightly aged rum - overproof (oz): 1.0
+St. Elizabeth Allspice Dram (oz): 0.25
+Glass: double old-fashioned","Smuggler's Cove, Page: 271",7,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+95,Scorpion,scorpion bowl,"Lime Juice (oz): 2.0
+Orange Juice (oz): 4.0
+Dem Simple Syrup (oz): 1.5
+Orgeat (oz): 2.0
+Blended Light Aged Rum (oz): 4.0
+London dry gin (oz): 4.0
+Brandy (oz): 2.0
+Glass: scorpion bowl","Smuggler's Cove, Page: 272",7,0,1,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+96,Fog Cutter,zombie,"Lemon Juice (oz): 1.5
+Orange Juice (oz): 1.5
+Orgeat (oz): 0.5
+Blended Light Aged Rum (oz): 2.0
+London dry gin (oz): 0.5
+Peruvian pisco (oz): 1.0
+Oloroso sherry (oz): 0.5
+Glass: zombie","Smuggler's Cove, Page: 275",7,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+97,Singapore Sling,collins,"Lemon Juice (oz): 0.75
+Seltzer (oz): 2.0
+Dem Simple Syrup (oz): 0.25
+London dry gin (oz): 1.5
+Cherry Heering Liqueur (oz): 0.5
+Benedictine (oz): 0.25
+Angostura Bitters (dash): 1.0
+Orange Bitters (dash): 1.0
+Glass: collins or highball","Smuggler's Cove, Page: 276",8,1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+98,Hondo Hattie's Jungle Punch!,punch drink,"Lemon Juice (oz): 1.0
+Honey Syrup (oz): 0.5
+Blended Aged Rum (oz): 2.0
+John D. Taylor's Velvet Falernum (oz): 0.5
+Blue Caracao (oz): 0.25
+Natural pear liqueur (oz): 0.25
+Tawny port (oz): 0.25
+Angostura Bitters (dash): 1.0
+Glass: punch drink","Smuggler's Cove, Page: 311",8,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+99,Kahiko Punch,punch drink,"Lemon Juice (oz): 1.0
+Cinnamon Syrup (oz): 0.5
+Wray & Nephew: 2.0
+Hibiscus Liqueur (oz): 0.5
+Bitttermens Elemakule Tiki Bitters (drops): 6.0
+Passion Fruit Honey (oz): 1.5
+Glass: punch drink","Smuggler's Cove, Page: 311",6,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0
+100,Triumvirate Punch,punch drink,"Lime Juice (oz): 0.75
+Wray & Nephew: 1.5
+St. Elizabeth Allspice Dram (oz): 0.25
+Angostura Bitters (dash): 2.0
+Passion Fruit Honey (oz): 1.0
+Glass: punch drink","Smuggler's Cove, Page: 312",5,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+101,Eureka Punch,punch drink,"Lemon Juice (oz): 1.5
+Ginger Ale (oz): 2.0
+Honey Syrup (oz): 1.0
+Column still aged rum (oz): 1.5
+Yellow Chartreuse (oz): 0.5
+Angostura Bitters (dash): 1.0
+Glass: punch drink","Smuggler's Cove, Page: 312",6,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+102,Yuletidal Wave,punch drink,"Lemon Juice (oz): 1.0
+Pineapple Juice (oz): 2.0
+Column still aged rum (oz): 1.0
+St. Elizabeth Allspice Dram (oz): 0.25
+Bourbon (oz): 1.0
+Brandy (oz): 0.5
+Licor 43 (oz): 0.5
+Natural pear liqueur (oz): 0.5
+Glass: punch drink","Smuggler's Cove, Page: 313",8,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+103,Rumbustion Punch,punch drink,"Lime Juice (oz): 1.0
+Dem Simple Syrup (oz): 0.5
+Cinnamon Syrup (oz): 0.25
+Blended Light Aged Rum (oz): 1.0
+Blended Aged Rum (oz): 1.0
+Herbstura (dash): 2.0
+Glass: punch drink","Smuggler's Cove, Page: 313",6,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+104,Puka Punch,brandy snifter,"Lime Juice (oz): 1.0
+Pineapple Juice (oz): 0.75
+Orange Juice (oz): 0.75
+Passion Fruit Syrup: 0.75
+Honey Syrup (oz): 1.0
+Blended Light Aged Rum (oz): 1.0
+Blended Aged Rum (oz): 1.0
+Black Blended Rum - Overproof (oz): 0.75
+Black Blended Rum (oz): 0.75
+John D. Taylor's Velvet Falernum (oz): 0.5
+Angostura Bitters (dash): 1.0
+Glass: brandy snifter","Smuggler's Cove, Page: 318",11,0,1,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+105,Donga Punch,tiki mug,"Cane AOC Martinique Rhum Agricole Vieux (oz): 2.0
+Don's Mix (oz): 1.5
+Lime Juice (oz): 3/4
+Glass: chilled coupe","Easy Tiki, Page: 61",3,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+106,Missionary's Downfall,snifter glass,"Blended Light Aged Rum (oz): 1.25
+Honey syrup (oz): 0.5
+Crème de peche(oz): 0.5
+Lemon Juice (oz): .75
+Pineapple chunks: 5
+Mint Leaves: 6
+Glass: tiki mug","Easy Tiki, Page: 64",6,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0
+107,Shaken Missionary's Downfall,tiki mug,"Blended Light Aged Rum (oz): 2
+Lime Juice (oz): .75
+Pineapple Juice (oz): .75
+Peach Liquer (oz): .5
+Honey Syrup (oz): .5
+Mint Leaves: 10
+","Easy Tiki, Page: 65",6,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
