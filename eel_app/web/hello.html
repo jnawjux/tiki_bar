@@ -5,23 +5,17 @@
         
         <!-- Include eel.js - note this file doesn't exist in the 'web' directory -->
         <script type="text/javascript" src="/eel.js"></script>
-        
         <script type="text/javascript">
-        
-        eel.expose(say_hello_js);               // Expose this function to Python
-        function say_hello_js(x) {
-            console.log("Hello from " + x);
-        }
-        
-        say_hello_js("Javascript World!");
-        eel.say_hello_py("Javascript World!");  // Call a Python function
-        
+            async function all_ingredients() {
+                let value = await eel.all_ingredients()()
+                document.getElementById('try').textContent = value
+            }
         </script>
     </head>
     
-    <body>
+    <body onload="all_ingredients()">
         Hello, World!
         <div id="try"></div>
-        <script type="text/javascript" src="test.js"></script>
+        
     </body>
 </html>

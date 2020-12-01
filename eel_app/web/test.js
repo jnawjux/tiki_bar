@@ -1,2 +1,2 @@
-const tryBox = document.getElementById('try')
-tryBox.textContent = eel.all_ingredients()
+const spot = document.getElementById("try")
+spot.textContent = eel.python_function()(all_ingredients)
