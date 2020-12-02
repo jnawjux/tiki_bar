@@ -59,7 +59,8 @@ def what_can_i_make(exact=0):
     return results
 
 eel.start('tiki.html', 
-           size=(1000, 600), 
+           size=(1000, 600),
+           mode='chrome', 
            close_callback=save_ingredients_on_close)  # Start
 
 
