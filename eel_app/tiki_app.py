@@ -11,6 +11,7 @@ my_ingredients = []
 def all_ingredients():
     return list(my_bar.columns)[6:]
 
+@eel.expose
 def what_can_i_make(ingredients, exact=0):
     found = []
     # Creating one list with ids for all items that match any one ingredient
@@ -40,7 +41,7 @@ def what_can_i_make(ingredients, exact=0):
         results.append(drink)
     return results
 
-eel.start('hello.html', size=(900, 550))  # Start
+eel.start('tiki.html', size=(900, 550))  # Start
 
 
 
