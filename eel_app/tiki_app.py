@@ -7,15 +7,32 @@ eel.init('web')
 my_bar = pd.read_csv('all_drinks.csv')
 my_ingredients = []
 
-@eel.expose
-def all_ingredients():
-    return list(my_bar.columns)[6:]
+with open('current.txt', 'r') as f:
+    my_ingredients.extend(f.read().split('\n'))
+
+
+def save_ingredients_on_close(route, websockets):
+    with open('current.txt', 'w') as f:
+        f.write('\n'.join(my_ingredients))
+
+@eel.expose 
+def get_ingredients():
+    return my_ingredients
 
 @eel.expose
-def what_can_i_make(ingredients, exact=0):
+def update_ingredients(ing):
+    if ing in my_ingredients:
+        my_ingredients.remove(ing)
+    else:
+        my_ingredients.append(ing)
+    return my_ingredients
+
+
+@eel.expose
+def what_can_i_make(exact=0):
     found = []
     # Creating one list with ids for all items that match any one ingredient
-    for item in ingredients:
+    for item in my_ingredients:
         found.extend(my_bar[my_bar[item] == 1]['drink_id'].tolist())
 
     # Turning that list into a frequency dictionary
@@ -41,7 +58,9 @@ def what_can_i_make(ingredients, exact=0):
         results.append(drink)
     return results
 
-eel.start('tiki.html', size=(900, 550))  # Start
+eel.start('tiki.html', 
+           size=(1000, 600), 
+           close_callback=save_ingredients_on_close)  # Start
 
 
 

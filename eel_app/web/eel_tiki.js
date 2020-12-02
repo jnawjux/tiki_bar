@@ -1,8 +1,3 @@
-async function all_ingredients() {
-    let value = await eel.all_ingredients()()
-    document.getElementById('try').textContent = value
-}
-
 // General function to clear tabs and sections for tab interface
 function clearActive() {
     Array.from(document.getElementsByClassName("tab-select")).forEach(tab => {tab.classList.remove("is-active")})
@@ -66,6 +61,21 @@ const currentIngredients = document.getElementById('currentIngredients')
 const allButtons = document.getElementsByTagName("button")
 const exSelect = document.getElementById("exSelect")
 
+// Function to update buttons when re-launching app
+async function loadState() {
+    let currentActive = await eel.get_ingredients()()
+    Array.from(allButtons).forEach(b => {
+        currentActive.forEach(activeIng => {
+            if (b.textContent == activeIng) {
+                b.classList.toggle("on-hand")
+            }
+        })
+        
+    })
+}
+
+
+
 // Function for removing children
 function removeAllChildNodes(parent) {
     while (parent.firstChild) {
@@ -74,11 +84,10 @@ function removeAllChildNodes(parent) {
 }
 
 // Function for updating ingredient list
-function updateOnHand(button) {
-    let postUrl = 'http://127.0.0.1:8000/on_hand/' + button.textContent.replace(" ", "%20")
-    fetch(postUrl, {method: "POST"})
-        .then(res => res.json())
-        .then(data =>  currentIngredients.innerText = data.join(", "))
+async function updateOnHand(button) {
+    let current = await eel.update_ingredients(button.textContent)()
+    console.log(current)
+    
 }
 
 // Function for getting current exactness setting
@@ -90,31 +99,25 @@ function howExact() {
 }
 
 // Function for updating drinks that can be made
-function makeIt(exact) {
-    let getUrl = 'http://127.0.0.1:8000/can_make/' + exact
-    fetch(getUrl)
-        .then(res => res.json())
-        .then(data => {
-            drinks.textContent = "" //if (drinks.hasChildNodes()) {removeAllChildNodes(drinks)}
-            data.forEach(d => {
-                    let newDrink = document.createElement('div')
-                    let title = document.createElement('h2')
-                    let ingredients = document.createElement('p')
-                    let page = document.createElement('span')
-                    newDrink.classList.add('drink', 'animate__animated', 'animate__bounceIn')
-                    title.classList.add('drink-title')
-                    page.classList.add('is-italic')
-                    title.innerText = d.name
-                    ingredients.innerText = d.ingredients + "\n"
-                    page.innerText = d.steps
-                    newDrink.appendChild(title)
-                    newDrink.appendChild(ingredients)
-                    newDrink.appendChild(page)
-                    drinks.appendChild(newDrink)})
-            }
-            )
+async function makeIt(exact) {
+    let data = await eel.what_can_i_make(exact)()
+    drinks.textContent = "" //if (drinks.hasChildNodes()) {removeAllChildNodes(drinks)}
+    data.forEach(d => {
+            let newDrink = document.createElement('div')
+            let title = document.createElement('h2')
+            let ingredients = document.createElement('p')
+            let page = document.createElement('span')
+            newDrink.classList.add('drink', 'animate__animated', 'animate__bounceIn')
+            title.classList.add('drink-title')
+            page.classList.add('is-italic')
+            title.innerText = d.name
+            ingredients.innerText = d.ingredients + "\n"
+            page.innerText = d.steps
+            newDrink.appendChild(title)
+            newDrink.appendChild(ingredients)
+            newDrink.appendChild(page)
+            drinks.appendChild(newDrink)})
 }
-
 
 // Add functions for button to update ingredients and update drinks
 
@@ -133,19 +136,3 @@ exSelect.addEventListener("change",
             makeIt(howExact())
     }
 )
-
-// On page load, match buttons to on hand ingredients
-
-function loadCurrent() {
-    let getUrl = 'http://127.0.0.1:8000/get_on_hand'
-    fetch(getUrl)
-    .then(res => res.json())
-    .then(data => {
-            currentIngredients.innerText = data.join(", ")
-            data.forEach(d=> {
-                Array.from(allButtons).forEach(b=> {
-                    if (b.innerText == d) {b.classList.add("on-hand")}
-                })
-            })}
-        )
-}
