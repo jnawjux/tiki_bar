@@ -45,14 +45,13 @@ body {
     color: white;
 }
 
-.tabs.is-toggle li a {
-    background-color: white;
+.sidebar li a {
+    color: white;
 }
 
-.tabs.is-toggle li.is-active a {
-    background-color: var(--dark-blue);
-    border-color: var(--light-blue);
-    color: white;
+.sidebar li.is-active a {
+    color: var(--dark-blue);
+    font-weight: 800;
 }
 
 .sidebar {
@@ -61,10 +60,15 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-    background-color: #111;
+    background-color: var(--coral);
     overflow-x: hidden;
     padding-top: 16px;
   }
+
+.sidebar li {
+    padding: 1rem;
+    text-align: center;
+}
 
 
 .tabs {

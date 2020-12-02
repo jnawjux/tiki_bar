@@ -86,7 +86,7 @@ function removeAllChildNodes(parent) {
 // Function for updating ingredient list
 async function updateOnHand(button) {
     let current = await eel.update_ingredients(button.textContent)()
-    console.log(current)
+    currentIngredients.innerText = data.join(", ")
     
 }
 
