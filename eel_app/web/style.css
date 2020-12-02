@@ -20,6 +20,10 @@ body {
     height: 100%;
 }
 
+.container {
+    margin-left: 160px;
+}
+
 .main-title {
     color: var(--coral);
     font-weight: 700;
@@ -51,7 +55,16 @@ body {
     color: white;
 }
 
-
+.sidebar {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 16px;
+  }
 
 
 .tabs {
