@@ -5,23 +5,40 @@ import eel
 eel.init('web')
 
 my_bar = pd.read_csv('all_drinks.csv')
+my_ingredients = []
 
 @eel.expose
 def all_ingredients():
     return list(my_bar.columns)[6:]
 
-# @eel.expose
-# def by_ingredient(ingredient):
-#     if ingredient in my_bar.on_hand:
-#         my_bar.on_hand.remove(ingredient)
-#     else:
-        
-#         my_bar.on_hand.append(ingredient)
-#     return my_bar.on_hand
+def what_can_i_make(ingredients, exact=0):
+    found = []
+    # Creating one list with ids for all items that match any one ingredient
+    for item in ingredients:
+        found.extend(my_bar[my_bar[item] == 1]['drink_id'].tolist())
 
-# @eel.expose
-# def can_make(exact):
-#     return my_bar.what_can_i_make(exact=exact)
+    # Turning that list into a frequency dictionary
+    freq = {item: found.count(item) for item in found}
+
+    # Creating dictionaries for each drink with its frequency count, common for matching all
+    common_dict = {id: tot - exact for id, tot in zip(my_bar.drink_id.tolist(),
+                                                        my_bar.ingredient_count.tolist()) if tot - exact > 0}
+
+    # Finding matching items (key, value)
+    common_id = [id[0] for id in list(freq.items() & common_dict.items())]
+
+    #Getting drink name for matches
+    name = my_bar[my_bar.drink_id.isin(common_id)].drink.values
+    ingredients = my_bar[my_bar.drink_id.isin(common_id)].full_recipe.values
+    steps = my_bar[my_bar.drink_id.isin(common_id)].steps.values
+    # if len(common_id) == 0:
+    #     return "None found"
+    # else:
+    results = []
+    for n, i, s in zip(name, ingredients, steps):
+        drink = {"name": n, "ingredients": i, "steps": s}
+        results.append(drink)
+    return results
 
 eel.start('hello.html', size=(900, 550))  # Start
 

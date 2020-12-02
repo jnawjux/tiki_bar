@@ -1,0 +1,121 @@
+/* Theme colors */
+:root {
+    --light-blue: #4e89ae;
+    --dark-blue: #43658b;
+    --coral: #ed6663;
+    --orangey: #ffa372;
+  }
+
+/* Layout tweaks */
+
+html {
+    height: 100%;
+    background: #ffdecc;
+}
+
+body {
+    margin: 0;
+    font-family: 'Jost', sans-serif;
+    color: var(--dark-blue);
+    height: 100%;
+}
+
+.main-title {
+    color: var(--coral);
+    font-weight: 700;
+}
+
+
+.button {
+    margin: .25em;
+    color: var(--dark-blue);
+    font-family: 'Jost', sans-serif;
+}
+
+.on-hand {
+    background: var(--dark-blue);
+    color: white;
+}
+
+.on-hand:hover, .on-hand:focus {
+    color: white;
+}
+
+.tabs.is-toggle li a {
+    background-color: white;
+}
+
+.tabs.is-toggle li.is-active a {
+    background-color: var(--dark-blue);
+    border-color: var(--light-blue);
+    color: white;
+}
+
+
+
+
+.tabs {
+    margin-top: 2em;
+}
+
+.select {
+    margin-left: .5em;
+}
+
+.exact-selector {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.items-section {
+    width: 80%;
+    margin: 1em auto;
+}
+
+.current-box {
+    width: 80%;
+    margin: 1em auto;
+    background: white;
+    text-align: center;
+    padding-top: .5em;
+    padding-bottom: .25em;
+    border: 1px solid lightGrey;
+    border-radius: .5em;
+
+}
+
+.current-heading {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.drink-box {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .drink-box>* {
+      flex: 0 0 30%;
+  }
+
+.drink {
+    padding: .5em 1em;
+    margin: 1em auto;
+    border: 1px solid lightGrey;
+    border-radius: .5em;
+    background: white;
+}
+
+.drink-title {
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: var(--coral);
+}
+
+
+/* Mobile changes */
+@media screen and (max-width: 750px) {
+    .tabs {
+        font-size: .75em;
+    }
+  }
