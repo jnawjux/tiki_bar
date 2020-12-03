@@ -73,8 +73,8 @@ body {
 
 .icon {
     display: inline-block;
-    width: 70px;
-    height: 70px;
+    width: 50px;
+    height: 50px;
     background-size: cover;
 }
 
@@ -82,7 +82,7 @@ body {
     background-image: url('imgs/orange-juice.svg');
 }
 
-.icon-juice .active {
+.icon-juice .active-icon {
     background-image: url('imgs/orange-juice-active.svg');
 }
 
@@ -90,7 +90,7 @@ body {
     background-image: url('imgs/syrup.svg');
 }
 
-.icon-syrup .active {
+.icon-syrup .active-icon {
     background-image: url('imgs/syrup-active.svg');
 }
 
@@ -98,7 +98,7 @@ body {
     background-image: url('imgs/rum.svg');
 }
 
-.icon-rum .active {
+.icon-rum .active-icon {
     background-image: url('imgs/rum-active.svg');
 }
 
@@ -106,7 +106,7 @@ body {
     background-image: url('imgs/liquor.svg');
 }
 
-.icon-liquor .active {
+.icon-liquor .active-icon {
     background-image: url('imgs/liquor-active.svg');
 }
 
@@ -114,14 +114,14 @@ body {
     background-image: url('imgs/fruit-liq.svg');
 }
 
-.icon-fruit-liq .active {
+.icon-fruit-liq .active-icon {
     background-image: url('imgs/fruit-liq-active.svg');
 }
 .icon-bitters {
     background-image: url('imgs/bitters.svg');
 }
 
-.icon-bitters .active {
+.icon-bitters .active-icon {
     background-image: url('imgs/bitters-active.svg');
 }
 
