@@ -49,17 +49,17 @@ def what_can_i_make(exact=0):
     name = my_bar[my_bar.drink_id.isin(common_id)].drink.values
     ingredients = my_bar[my_bar.drink_id.isin(common_id)].full_recipe.values
     steps = my_bar[my_bar.drink_id.isin(common_id)].steps.values
-    # if len(common_id) == 0:
-    #     return "None found"
-    # else:
-    results = []
-    for n, i, s in zip(name, ingredients, steps):
-        drink = {"name": n, "ingredients": i, "steps": s}
-        results.append(drink)
-    return results
+    if len(common_id) == 0:
+        pass
+    else:
+        results = []
+        for n, i, s in zip(name, ingredients, steps):
+            drink = {"name": n, "ingredients": i, "steps": s}
+            results.append(drink)
+        return results
 
 eel.start('tiki.html', 
-           size=(1000, 600),
+           size=(1000, 700),
            mode='chrome', 
            close_callback=save_ingredients_on_close)  # Start
 

@@ -6,6 +6,15 @@ function clearActive() {
 
 
 // Functions for individual tabs
+
+const barTab = document.getElementById('bar-tab')
+
+barTab.addEventListener("click", function() {
+    clearActive()
+    barTab.classList.add("is-active")
+    document.getElementById("bar").classList.remove("is-hidden")
+})
+
 const juiceTab = document.getElementById('juice-tab')
 
 juiceTab.addEventListener("click", function() {
