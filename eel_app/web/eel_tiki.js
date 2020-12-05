@@ -81,6 +81,7 @@ async function loadState() {
         })
         
     })
+    console.log(currentActive)
 }
 
 
@@ -95,7 +96,7 @@ function removeAllChildNodes(parent) {
 // Function for updating ingredient list
 async function updateOnHand(button) {
     let current = await eel.update_ingredients(button.textContent)()
-    currentIngredients.innerText = data.join(", ")
+    currentIngredients.innerText = current.join(", ")
     
 }
 
@@ -110,7 +111,7 @@ function howExact() {
 // Function for updating drinks that can be made
 async function makeIt(exact) {
     let data = await eel.what_can_i_make(exact)()
-    drinks.textContent = "" //if (drinks.hasChildNodes()) {removeAllChildNodes(drinks)}
+    drinks.textContent = ""
     data.forEach(d => {
             let newDrink = document.createElement('div')
             let title = document.createElement('h2')

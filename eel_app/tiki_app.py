@@ -13,7 +13,7 @@ with open('current.txt', 'r') as f:
 
 def save_ingredients_on_close(route, websockets):
     with open('current.txt', 'w') as f:
-        f.write('\n'.join(my_ingredients))
+        f.write('\n'.join(my_ingredients).split())
 
 @eel.expose 
 def get_ingredients():
@@ -33,7 +33,8 @@ def what_can_i_make(exact=0):
     found = []
     # Creating one list with ids for all items that match any one ingredient
     for item in my_ingredients:
-        found.extend(my_bar[my_bar[item] == 1]['drink_id'].tolist())
+        if item != "":
+            found.extend(my_bar[my_bar[item] == 1]['drink_id'].tolist())
 
     # Turning that list into a frequency dictionary
     freq = {item: found.count(item) for item in found}
@@ -49,14 +50,14 @@ def what_can_i_make(exact=0):
     name = my_bar[my_bar.drink_id.isin(common_id)].drink.values
     ingredients = my_bar[my_bar.drink_id.isin(common_id)].full_recipe.values
     steps = my_bar[my_bar.drink_id.isin(common_id)].steps.values
-    if len(common_id) == 0:
-        pass
-    else:
-        results = []
-        for n, i, s in zip(name, ingredients, steps):
-            drink = {"name": n, "ingredients": i, "steps": s}
-            results.append(drink)
-        return results
+    # if len(common_id) == 0:
+    #     pass
+    # else:
+    results = []
+    for n, i, s in zip(name, ingredients, steps):
+        drink = {"name": n, "ingredients": i, "steps": s}
+        results.append(drink)
+    return results
 
 eel.start('tiki.html', 
            size=(1000, 700),
