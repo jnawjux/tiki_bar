@@ -8,12 +8,16 @@ my_bar = pd.read_csv('all_drinks.csv')
 my_ingredients = []
 
 with open('current.txt', 'r') as f:
-    my_ingredients.extend(f.read().split('\n'))
+    lines = (line.rstrip() for line in f) # All lines including the blank ones
+    lines = (line for line in lines if line) # Non-blank lines
+    my_ingredients.extend(lines)
 
 
 def save_ingredients_on_close(route, websockets):
     with open('current.txt', 'w') as f:
-        f.write('\n'.join(my_ingredients).split())
+        for i in my_ingredients:
+            if i != "":
+                f.write(i + "\n")
 
 @eel.expose 
 def get_ingredients():
