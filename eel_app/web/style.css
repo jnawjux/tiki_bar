@@ -90,40 +90,23 @@ body {
     background-image: url('imgs/syrup.svg');
 }
 
-.icon-syrup .active-icon {
-    background-image: url('imgs/syrup-active.svg');
-}
-
 .icon-rum {
     background-image: url('imgs/rum.svg');
-}
-
-.icon-rum .active-icon {
-    background-image: url('imgs/rum-active.svg');
 }
 
 .icon-liquor {
     background-image: url('imgs/liquor.svg');
 }
 
-.icon-liquor .active-icon {
-    background-image: url('imgs/liquor-active.svg');
-}
 
 .icon-fruit-liq {
     background-image: url('imgs/fruit-liq.svg');
 }
 
-.icon-fruit-liq .active-icon {
-    background-image: url('imgs/fruit-liq-active.svg');
-}
 .icon-bitters {
     background-image: url('imgs/bitters.svg');
 }
 
-.icon-bitters .active-icon {
-    background-image: url('imgs/bitters-active.svg');
-}
 
 
 .tabs {
