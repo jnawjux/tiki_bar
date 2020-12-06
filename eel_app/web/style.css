@@ -124,7 +124,7 @@ body {
 }
 
 .items-section {
-    width: 80%;
+    width: 90%;
     margin: 1em auto;
 }
 
@@ -150,7 +150,7 @@ body {
     flex-wrap: wrap;
   }
   .drink-box>* {
-      flex: 0 0 30%;
+      flex: 0 0 40%;
   }
 
 .drink {
