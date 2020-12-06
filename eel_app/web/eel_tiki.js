@@ -66,6 +66,7 @@ bittersTab.addEventListener("click", function() {
 
 // Current ingredient, drink section, buttons, exactness selector
 const drinks = document.getElementById('drinkBox')
+const barTabText = document.getElementById('barTabText')
 const currentIngredients = document.getElementById('currentIngredients')
 const allButtons = document.getElementsByTagName("button")
 const exSelect = document.getElementById("exSelect")
@@ -128,6 +129,8 @@ async function makeIt(exact) {
             newDrink.appendChild(ingredients)
             newDrink.appendChild(page)
             drinks.appendChild(newDrink)})
+            let drinkBoxCount = drinks.childElementCount
+            barTabText.textContent = drinkBoxCount > 0? "(" + drinkBoxCount + ")" : ""
 }
 
 // Add functions for button to update ingredients and update drinks
