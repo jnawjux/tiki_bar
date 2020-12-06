@@ -73,6 +73,7 @@ const exSelect = document.getElementById("exSelect")
 // Function to update buttons when re-launching app
 async function loadState() {
     let currentActive = await eel.get_ingredients()()
+    currentIngredients.innerText = currentActive.join(", ")
     Array.from(allButtons).forEach(b => {
         currentActive.forEach(activeIng => {
             if (b.textContent == activeIng) {
@@ -95,8 +96,8 @@ function removeAllChildNodes(parent) {
 
 // Function for updating ingredient list
 async function updateOnHand(button) {
-    let current = await eel.update_ingredients(button.textContent)()
-    currentIngredients.innerText = current.join(", ")
+    let currentActive = await eel.update_ingredients(button.textContent)()
+    currentIngredients.innerText = currentActive.join(", ")
     
 }
 
