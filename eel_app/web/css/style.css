@@ -6,6 +6,11 @@
     --orangey: #ffa372;
   }
 
+
+@font-face {
+    font-family: 'Jost';
+    src: url('../files/Jost-VariableFont_wght.ttf');
+}
 /* Layout tweaks */
 
 html {
@@ -79,32 +84,32 @@ body {
 }
 
 .icon-bar {
-    background-image: url('imgs/tropical-bar.svg');
+    background-image: url('../imgs/tropical-bar.svg');
 }
 
 .icon-juice {
-    background-image: url('imgs/orange-juice.svg');
+    background-image: url('../imgs/orange-juice.svg');
 }
 
 .icon-syrup {
-    background-image: url('imgs/syrup.svg');
+    background-image: url('../imgs/syrup.svg');
 }
 
 .icon-rum {
-    background-image: url('imgs/rum.svg');
+    background-image: url('../imgs/rum.svg');
 }
 
 .icon-liquor {
-    background-image: url('imgs/liquor.svg');
+    background-image: url('../imgs/liquor.svg');
 }
 
 
 .icon-fruit-liq {
-    background-image: url('imgs/fruit-liq.svg');
+    background-image: url('../imgs/fruit-liq.svg');
 }
 
 .icon-bitters {
-    background-image: url('imgs/bitters.svg');
+    background-image: url('../imgs/bitters.svg');
 }
 
 

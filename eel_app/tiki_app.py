@@ -4,17 +4,17 @@ import eel
 # Set web files folder
 eel.init('web')
 
-my_bar = pd.read_csv('web/all_drinks.csv')
+my_bar = pd.read_csv('web/files/all_drinks.csv')
 my_ingredients = []
 
-with open('web/current.txt', 'r') as f:
+with open('web/files/current.txt', 'r') as f:
     lines = (line.rstrip() for line in f) # All lines including the blank ones
     lines = (line for line in lines if line) # Non-blank lines
     my_ingredients.extend(lines)
 
 
 def save_ingredients_on_close(route, websockets):
-    with open('web/current.txt', 'w') as f:
+    with open('web/files/current.txt', 'w') as f:
         for i in my_ingredients:
             if i != "":
                 f.write(i + "\n")
